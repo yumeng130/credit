@@ -14,7 +14,7 @@ public class IndexController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World!";
+        return "搞事情么!";
     }
 
     public static void main(String[] args) throws Exception {
